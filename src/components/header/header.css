@@ -1,0 +1,13 @@
+.header {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #6fa7fd;
+}
+
+.header a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
