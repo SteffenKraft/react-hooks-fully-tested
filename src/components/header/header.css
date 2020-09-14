@@ -4,10 +4,15 @@
   justify-content: center;
   align-items: center;
   background: #6fa7fd;
+  color: #fff;
 }
 
 .header a {
   font-weight: bold;
   text-decoration: none;
   color: #fff;
+}
+
+.header .divider {
+  margin: 0 10px;
 }

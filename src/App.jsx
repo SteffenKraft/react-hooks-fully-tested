@@ -2,7 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Header from './components/header/Header';
-import UseState from './components/useState/UseState';
+import Counter from './components/useState/counter/Counter';
+import Input from './components/useState/input/Input';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <Header />
       <main>
         <Switch>
-          <Route exact path="/use-state" component={UseState} />
+          <Route exact path="/use-state/counter" component={Counter} />
+          <Route exact path="/use-state/input" component={Input} />
         </Switch>
       </main>
     </Router>

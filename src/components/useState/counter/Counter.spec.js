@@ -1,11 +1,11 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import UseState from './UseState';
+import Counter from './Counter';
 
-describe('counter useState', () => {
+describe('test counter state', () => {
   test('increment counter', () => {
-    render(<UseState />);
+    render(<Counter />);
     const button = screen.getByRole('button', { name: '+' });
     const span = screen.getByText('0');
 
@@ -16,7 +16,7 @@ describe('counter useState', () => {
   });
 
   test('decrementCount counter', () => {
-    render(<UseState />);
+    render(<Counter />);
     const button = screen.getByRole('button', { name: '-' });
     const span = screen.getByText('0');
 
