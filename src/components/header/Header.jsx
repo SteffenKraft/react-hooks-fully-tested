@@ -12,6 +12,8 @@ function Header() {
       <Link to="/use-ref/input"> useRef Input</Link>
       <span className="divider">|</span>
       <Link to="/use-ref/prev-input"> useRef PrevState</Link>
+      <span className="divider">|</span>
+      <Link to="/use-effect"> useEffect</Link>
     </header>
   );
 }

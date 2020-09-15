@@ -6,6 +6,7 @@ import UseStateCounter from './components/useState/counter/Counter';
 import UseStateInput from './components/useState/input/Input';
 import UseRefInput from './components/useRef/input/Input';
 import UseRefPrevInput from './components/useRef/prevStateValue/Input';
+import UseEffect from './components/useEffect/blog/Blog';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route exact path="/use-state/input" component={UseStateInput} />
           <Route exact path="/use-ref/input" component={UseRefInput} />
           <Route exact path="/use-ref/prev-input" component={UseRefPrevInput} />
+          <Route exact path="/use-effect" component={UseEffect} />
         </Switch>
       </main>
     </Router>
