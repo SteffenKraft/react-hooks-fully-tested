@@ -14,6 +14,10 @@ function Header() {
       <Link to="/use-ref/prev-input"> useRef PrevState</Link>
       <span className="divider">|</span>
       <Link to="/use-effect"> useEffect</Link>
+      <span className="divider">|</span>
+      <Link to="/use-custom-hook-1"> useLocalStorage</Link>
+      <span className="divider">|</span>
+      <Link to="/use-custom-hook-2"> useLogger</Link>
     </header>
   );
 }

@@ -8,7 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Eslint
 - React Router Dom
 
-### React Testing Library
+### React Testing
 
 - DOM Testing Library [doc] https://testing-library.com/docs/dom-testing-library/intro
 - Kent C. Dodds best practice [doc] https://kentcdodds.com/blog/common-mistakes-with-react-testing-library
@@ -16,3 +16,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - using user-event [doc] https://github.com/testing-library/user-event
 - testing custom hooks [doc] https://github.com/testing-library/react-hooks-testing-library
 - using Mock Service Worker for mocking fetch request [doc] https://github.com/mswjs/msw
+- testing custom hooks [doc] https://github.com/testing-library/react-hooks-testing-library
